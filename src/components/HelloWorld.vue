@@ -132,7 +132,9 @@ export default {
         this.nombrecientifico =""
         this.familia=""
         this.extincion=false
-        location.reload();
+        setTimeout(() => {
+          location.reload();
+        }, 300);
     },
     editar(id, nombrev, nombrec, familia, extincion){
       this.idedit= id
