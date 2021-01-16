@@ -156,7 +156,9 @@ export default {
       this.nombrecientificoedit = ""
       this.familiaedit = ""
       this.extincionedit = ""
-      location.reload();
+      setTimeout(() => {
+          location.reload();
+        }, 300);
     }
   },
 };
